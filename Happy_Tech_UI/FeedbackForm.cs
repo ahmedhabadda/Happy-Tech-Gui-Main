@@ -56,16 +56,6 @@ namespace Happy_Tech_UI
         }
         
 
-        private void EntrName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        public void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
         public void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
@@ -83,16 +73,6 @@ namespace Happy_Tech_UI
                 FeedbackText.Text = "Sorry your application was Unsuccessful ";
                 FeedbackText.Refresh();
             }
-        }
-
-        private void Templates_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void FeedbackForm_Load(object sender, EventArgs e)
-        {
-           
         }
 
         private void SendFeedback_Click(object sender, EventArgs e)
@@ -113,36 +93,6 @@ namespace Happy_Tech_UI
             }
         }
 
-        private void FeedbackTopic_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FeedbackTopic_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ShortcutCheckbox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void suggestedText_SelectedIndexChanged(object sender, EventArgs e)
         {
             TextSuggestion ft1 = suggestedText.SelectedItem as TextSuggestion;
@@ -150,25 +100,10 @@ namespace Happy_Tech_UI
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-          
-
-        }
-        
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Template at1 = comboBox1.SelectedItem as Template;
             FeedbackText.Text += at1.apptemptext;
-
-
         }
     }
 }

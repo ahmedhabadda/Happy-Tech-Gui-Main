@@ -61,7 +61,6 @@
             this.Interviewer.Size = new System.Drawing.Size(164, 20);
             this.Interviewer.TabIndex = 16;
             this.Interviewer.Text = "Interviewer";
-            this.Interviewer.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
             // 
             // SendFeedback
             // 
@@ -90,7 +89,6 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "HappyTech";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FeedbackText
             // 
@@ -100,7 +98,6 @@
             this.FeedbackText.Name = "FeedbackText";
             this.FeedbackText.Size = new System.Drawing.Size(357, 223);
             this.FeedbackText.TabIndex = 22;
-            this.FeedbackText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // checkBox2
             // 
@@ -146,7 +143,6 @@
             this.FeedbackTopic.Name = "FeedbackTopic";
             this.FeedbackTopic.Size = new System.Drawing.Size(357, 21);
             this.FeedbackTopic.TabIndex = 24;
-            this.FeedbackTopic.SelectedIndexChanged += new System.EventHandler(this.FeedbackTopic_SelectedIndexChanged_1);
             // 
             // label2
             // 
@@ -157,7 +153,6 @@
             this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 25;
             this.label2.Text = "Feedback Topic:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // suggestedText
             // 
@@ -179,7 +174,6 @@
             this.label3.Size = new System.Drawing.Size(114, 13);
             this.label3.TabIndex = 27;
             this.label3.Text = "Insert Suggested Text:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -190,7 +184,6 @@
             this.label4.Size = new System.Drawing.Size(111, 13);
             this.label4.TabIndex = 29;
             this.label4.Text = "Application Templates";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // comboBox1
             // 
@@ -225,7 +218,6 @@
             this.Name = "FeedbackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.FeedbackForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

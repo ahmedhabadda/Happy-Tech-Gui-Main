@@ -61,12 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Applicant.cs" />
-    <Compile Include="Classes\DBconn.cs" />
-    <Compile Include="Classes\Feedback.cs" />
-    <Compile Include="Classes\Template.cs" />
-    <Compile Include="Classes\TemplateModel.cs" />
-    <Compile Include="Classes\User.cs" />
+    <Compile Include="Models\Applicant.cs" />
+    <Compile Include="DBconn.cs" />
+    <Compile Include="Models\Feedback.cs" />
+    <Compile Include="Models\Template.cs" />
+    <Compile Include="Models\TemplateModel.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="FeedbackForm.cs">
       <SubType>Form</SubType>
     </Compile>

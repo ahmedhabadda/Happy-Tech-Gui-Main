@@ -16,7 +16,14 @@ namespace Happy_Tech_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogInForm());
+
+            LogInForm l = new LogInForm();
+            if(l.ShowDialog() == DialogResult.OK && l.succesfulLogin == true)
+            {
+                //If the login is successful run feedback form
+                Application.Run(new FeedbackForm());
+            }
+            
         }
     }
 }
